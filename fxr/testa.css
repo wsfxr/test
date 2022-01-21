@@ -1,0 +1,109 @@
+*{
+          margin: 0;
+          padding: 0;
+      }
+      .bigbox{
+          width: 416px;
+          height: 1000px;
+          background-color: rgb(245,245,248);
+          margin: auto;
+      }
+      /* 头部 */
+      .guanli{
+          width: 416px;
+          height: 60px;
+          background-color: rgb(67,150,247);
+          margin: auto;
+          line-height: 60px;
+          color: aliceblue;
+          text-align: center;
+          
+      }
+       .guanli  span {
+           display:inline-block;                
+           }
+       
+      a{
+          color: aliceblue;
+          text-decoration: none;
+      }
+      .wd{
+        width: 60px;
+        float: left;
+      }
+      .bc{
+          width: 90px;
+          float: right;
+      }
+      
+      .one1{
+          width: 416px;
+          height: 160px;
+          background-color:  rgb(255,255,255);
+          
+      }
+      #discount{
+          margin-top: 14px;
+          width: 416px;
+          height: 55px;
+          background-color:  rgb(255,255,255);
+          color: rgb(151,151,162);
+      }
+      .phone{
+          margin-top: 14px;
+          width: 416px;
+          height: 260px;
+          background-color:  rgb(255,255,255);
+          
+      }
+      #address{
+          margin-top: 14px;
+          width: 416px;
+          height: 150px;
+          background-color:  rgb(255,255,255);
+         
+      }
+      #bank{
+          margin-top: 14px;
+          width: 416px;
+          height: 160px;
+          background-color:  rgb(255,255,255);
+         
+      }
+      .beizhu{
+          margin-top: 14px;
+          width: 416px;
+          height: 110px;
+          background-color:  rgb(255,255,255);
+          color: rgb(151,151,162);
+      }
+      table{
+          width: 416px
+       
+      }
+      th,td{
+          padding-left: 20px;
+          height: 48px;
+          min-width: 100px;  
+          border-bottom: 0.5px solid rgb(245,245,249);
+          color: rgb(151,151,162);
+         
+      }
+      input{
+          width: 250px;
+          border: none;
+          border-bottom: 0.5px solid skyblue;
+          height: 43px;
+          color: rgb(151,151,162);
+      } 
+
+      
+      #按钮{
+         text-align: right;
+      }
+      select{
+          width: 250px;
+          border: none;
+          border-bottom: 0.5px solid skyblue;
+      }
+     
