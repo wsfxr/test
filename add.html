@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新增页面</title>
+    <link type="text/css" rel="stylesheet" href="testa.css">
+</head>
+   <script type="text/javascript">
+    function rec(){
+      var mychar="I love JavaScript";
+      alert("请复制收件人地址再粘贴，会自动拆解收件人姓名、电话、地址信息。");
+    }
+    </script>
+    
+</head>
+<body>
+    <div class="bigbox">
+     <!-- /* 头部模块 */ -->
+       <div class="guanli">  
+        <span class="wd"> <a href="manage.html"><img src="img/gysgl.png"></a>  </span>
+        <span > <h3>新增供应商</h3>  </span>
+        <span class="bc"> <a href="#">保存</a>   </span>
+      </div>
+
+      <!-- body部分这是一条分割线 -->
+    <div class="one1">
+        <table>
+            <tr>
+                <td>
+                    <label>名字<span style="color: red;">*</span></label>
+                </td>
+                <td>
+                    <input type="text" value="请输入供应商名称">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    负责人
+                </td>
+                <td>
+                    <input type="text" value="请输入负责人">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    启用
+                </td>
+                <td id="按钮">
+                    <img src="img/button.png" >
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="discount">
+    <table>
+        <tr>
+            <td>
+                <label>折扣(%)<span style="color: red;">*</span></label>
+            </td>
+            <td>
+                <input type="text" value="100">
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="phone">
+        <table>
+            <tr>
+                <td>
+                    手机
+                </td>
+                <td>
+                    <input type="text" value="请输入手机号码">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    电话
+                </td>
+                <td>
+                    <input type="text" value="请输入电话号码">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    邮箱
+                </td>
+                <td>
+                    <input type="text" value="格式:service@fxr.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    传真
+                </td>
+                <td>
+                    <input type="text" value="请输入传真号码">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    网址
+                </td>
+                <td>
+                    <input type="text" value="格式:https://www.hao123.com/">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="address">
+        <table>
+            <tr>
+                <td>
+                    地址信息
+                </td>
+                <td>
+                   <!-- <a href=""> <img src="img/智能粘贴.png" ></a> -->
+                   <input name="button" type="button" onClick="rec()" value="智能粘贴" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    地区
+                </td>
+                <td>
+                    <!-- 下拉框 -->
+                   <select name="ad" >
+                       <option value="beijing">北京</option>
+                       <option value="shanghai">上海</option>
+                       <option value="shanghai">南京</option>
+                   </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    详细地址
+                </td>
+                <td>
+                    <input type="textarea" value="请输入详细地址">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="bank">
+        <table>
+            <tr>
+                <td>
+                    开户银行
+                </td>
+                <td>
+                    <input type="text" value="请输入开户银行">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    银行账户
+                </td>
+                <td>
+                    <input type="text" value="请输入银行账户">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    银行账号
+                </td>
+                <td>
+                    <input type="text" value="请输入银行账号">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="beizhu">
+        <table>
+            <tr>
+                <td>
+                    <label>排序<span style="color: red;">*</span></label>
+                </td>
+                <td>
+                    <input type="text" value="100">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    备注
+                </td>
+                <td>
+                    <input type="textarea" value="请输入备注信息">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    
+    </div>
+</body>
+</html>
